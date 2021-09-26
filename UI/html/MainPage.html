@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1><marquee>Welcome to Harambee - Modulo de Informacion del Personal </marquee></h1>
+        <link rel="stylesheet" type="text/css" href="../css/HarambeeStyle.css">
+    </head>
+
+    <body>
+      <header>
+          <section class="Header"> 
+              <img src="./Pictures/styles/Harambee/HARAMBEE1.jpg">
+              </section>
+      </header>
+     <br>
+
+        <section class="Sidebar1">
+            <ul> 
+                <li><a href="#">Inicio</a></li>
+            </ul>
+        </section>
+
+        <section class="Sidebar2">
+            <ul>
+                <li><a href="#">Nuestro Equipo</a></li>
+            </ul>
+        </section>
+
+        <section class="Sidebar3">
+            <ul> 
+                <li><a href="#">Informacion de ventas</a></li>
+            </ul>
+        </section> 
+
+        <section class="Sidebar4">
+            <ul> 
+                <li><a href="#">Informacion de Personal</a></li>
+            </ul>
+        </section>
+        <section class="Sidebar5">
+            <ul>
+                <li><a href="#">Permisos de Usuario</a></li>
+            </ul>
+        </section>
+        
+        <section class="Sidebar6">
+            <ul>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </section>
+
+        <section class="Sidebar7">
+            <ul>
+                <form>
+                    <input type="search" name="q" placeholder="Buscar">
+                    <a href= "https://www.google.com.co" target="_blank" onClick="window.open(this.href, this.target, 'width=500,height=300'); return false;"><input type="submit" value="Ir" name="Find"> </a>
+                </form>
+            </ul>
+        </section>
+
+    <main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="form">
+        <h2>FORMULARIO DE VENDEDOR</h2>
+        <br>
+            <form action="enviar-formulario.php" method="post">
+            <label>Nombre:</label> 
+            <input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" />
+            <label>Tipo de ID:</label>
+            <input required size="50" list="Tipo de ID" type="text" placeholder="Selecciona el tipo de ID">
+            <datalist id="Tipo de ID">
+            <option value="Cedula de ciudadania"></option>
+            <option value="Cedula de Extranjeria"></option>
+            <option value="Pasaporte"></option>
+            <option value="NIT"></option>
+            </datalist>
+            <br>
+            <label>ID (IU):</label>
+            <input max lenght="50" name="ID" required size="50" type="ID" placeholder="Escribe el numero de ID" />
+            <label>Email:</label>
+            <input max lenght="50" name="email" required size="50" type="email" placeholder="Escribe tu email" />
+            <label>Teléfono</label>
+            <input maxlenght="50" name="telefono" required size="50" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+            <br>
+            <label>Celular </label>
+            <input maxlength="50" name="Mobile" required size="50" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" />
+            <br>
+            <label>Cargo:</label>
+            <input required size="50" list="Cargo" type="text" placeholder="Selecciona el cargo">
+            <datalist id="Cargo">
+            <option value="Vendedor"></option>
+            <option value="Operario"></option>
+            <option value="Ejecutivo"></option>
+            <option value="Administrador"></option>
+            <option value="Gerente Comercial"></option>
+            <option value="Director"></option></datalist>
+            <br>
+            <label>Especialidad: </label>
+            <input max lenght="50" name="Especialidad" required size="50" type="ID" placeholder="Selecciona la Especialidad" />
+            <datalist id="Especialidad">
+                <option value="Producto-01"></option>
+                <option value="Producto-02"></option>
+                <option value="Producto-03"></option>
+                <option value="Producto-04"></option>
+                <option value="Producto-05"></option></datalist>                      
+            <br>
+            <label>Fecha de Ingreso:</label>
+            <input name="fecha" type="date" />
+            <br>
+            <br>
+            <label>Observaciones:</label>
+            <br>
+            <textarea cols="80" name="observaciones" rows="8">
+            Puedes escribir aquí tus observaciones...</textarea>
+            <br>
+            <br>
+            <input type="submit" value="Guardar" />
+            </form>
+            <br>
+            <br>
+        </section>
+    </main>
+    <br>
+    <br>
+
+    <section class="footer">
+        <br>
+        <br>
+        <p>©Copyright 2021 Harambee. Todos los derechos reservados.</p>
+    </section>
+  </body>
+</html>
