@@ -1,0 +1,232 @@
+marquee{
+    background-color: black;
+    font-display: white;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.body {
+    margin: 0 auto;
+    text-align: left;
+    width: 960px;
+    background-color: teal;
+}
+
+.Sidebar1 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color:white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 200px;
+}
+
+.Sidebar2 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 240px;
+}
+
+.Sidebar3 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 280px;
+}
+
+.Sidebar4 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 280px;
+}
+
+.Sidebar5 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 240px;
+}
+
+.Sidebar6 {
+    float:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 7px 2px 7px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:left;
+    width: 220px;
+}
+
+.Sidebar7 {
+    float:left;
+    height: 63px;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    padding: 2px 5px 2px 5px;
+    color: rgb(242, 242, 242);
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    text-align:top;
+    width: 310px;
+}
+
+
+.form {
+    background-color: rgb(219, 219, 219);
+    padding:20px;
+    border: 2px solid black;
+}
+
+label {
+    margin:15px;
+    clear:both;
+    display:block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+input{
+    padding: 10px;
+    border: solid 2px #262626;
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+
+::placeholder, option value {
+    color: grey; 
+    font-weight:bold;
+    font-size: 18px;
+}
+
+textarea {
+    margin-left: 1%;
+    border: solid 2px #262626;
+    font-size:18px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background-color:grey; 
+    border: solid 2px #ededed;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+.header {
+    display: inline-block;
+    background-color: #F7A418;
+    text-align:right;
+    height: 200px;
+    width: 100%; 
+}
+
+.footer {
+    clear: both;
+    background-color: white;
+    font-size: 14px;
+}
+
+.title {
+    font-family: Arial, helvetica, sans-serif;
+    font-size:24px;
+    color: #020514;
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li, p{
+    font-size: 30px
+}
+nav .first{
+    font-weight: bold;    
+}
+
+width: 98%;
+margin-left:2%;
+margin-top:0%;
+height: auto;
+font-family: Helvetica, sans-serif;
+font-size: 20px;
+text-align: left;
