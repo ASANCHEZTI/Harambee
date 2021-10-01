@@ -1,0 +1,98 @@
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+
+a {
+    color: black;
+}
+
+
+input[type="submit"] {
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background-color:grey; 
+    border: solid 1px #ededed;
+    Height: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+header {
+    display: inline-block;
+    background-color:#F7A418;
+    text-align:right;
+    height: auto; 
+    margin-top:0px;
+}
+img {
+    padding: 5px;
+    height: 184px;
+    width: 500px;
+    float:right;
+    margin-top:0%;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+.Menu {
+    margin-top: 400px;
+}
+
+
+
+.title {
+    font-family: Arial, helvetica, sans-serif;
+    font-size:24px;
+    color: #020514;
+}
+
+.nav {
+    float: left; 
+  }
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  
+nav ul li {
+    float: left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: rgb(242, 242, 242);
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+  
+  }
+  
+  nav ul li:hover {
+    background: #F7A418;
+  }
+
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .sidebar1 {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .sidebar1{
+        width:1024px;
+    }
+}
