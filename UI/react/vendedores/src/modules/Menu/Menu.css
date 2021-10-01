@@ -1,0 +1,14 @@
+header {
+    display: inline-block;
+    background-color:#F7A418;
+    text-align:right;
+    height: auto; 
+    margin-top:0px;
+}
+img {
+    padding: 5px;
+    height: 184px;
+    width: 500px;
+    float:right;
+    margin-top:0%;
+}

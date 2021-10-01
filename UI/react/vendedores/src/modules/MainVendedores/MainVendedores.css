@@ -1,0 +1,44 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+
+
+.main-content {
+    padding:10px 10px 10px 10px;
+    background-color:rgb(221, 221, 219);
+    width:1200px; 
+    margin-top:200px;
+    margin-left:350px;
+    margin-right:350px;
+    object-position: center;
+    
+}
+
+
+button {
+    padding: 10px 10px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    font-weight:bold;
+    font-size:14px;
+    width: 400px;
+    background-color:rgb(180, 179, 179); 
+
+}

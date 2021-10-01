@@ -1,0 +1,112 @@
+* {  
+    font-family: Arial, helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.Menu {
+    object-position:left;
+    margin-top: 400px;
+}
+
+.form {
+    background-color:rgb(221, 221, 219);
+    padding:5px 20px;
+    border: 2px solid rgb(160, 160, 159);
+    margin-left: 250px;
+    margin-top:190px;
+    width: 1400px;
+    object-position: right;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size:14px;
+}
+
+.form fieldset {
+    padding: 20px;
+}
+
+label {
+    margin:5px;
+    padding: 5px 5px 5px 5px;
+    clear:both;
+    display:block;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+}
+
+input{
+    padding: 10px;
+    border: solid 2px #a3a3a3;
+    
+
+}
+
+::placeholder, option value {
+    color: grey; 
+    font-weight:bold;
+    font-size: 14px;
+    
+    
+}
+
+textarea {
+    margin-left: 1%;
+    border: solid 2px #262626;
+    font-size:14px;
+}
+
+button {
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    font-weight:bold;
+    font-size:14px;
+    margin-left: 1%;
+    background-color:rgb(180, 179, 179); 
+    border: solid 2px #ededed;
+}
+
+input[type="submit"] {
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background-color:grey; 
+    border: solid 2px #ededed;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+
+.title {
+    font-family: Arial, helvetica, sans-serif;
+    font-size:16px;
+    color: #020514;
+}
+
+li, p{
+    font-size: 14px
+}
+nav .first{
+    font-weight: bold;    
+}
