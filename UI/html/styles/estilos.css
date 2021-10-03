@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15;
+  background-color: #f7a418;
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.loginbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #e4e3de;
+  border-bottom: 0px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.logo {
+  height: 150px;
+  align-items: center;
+}
+
+.botonGenerico {
+  border: 0px;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+.botonGenerico:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton {
+  background-color: #f7a418;
+  color: white;
+}
+
+.mainButton:hover {
+  box-shadow: 1px 1px green;
+}
+
+.secondaryButton {
+  background-color: #f7a418;
+  color: white;
+}
+
+.secondaryButton:hover {
+  box-shadow: 1px 1px rgb(119, 229, 233);
+}
+
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within {
+  border: 1px solid blue;
+}
+
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+
+.iconoBusqueda:hover {
+  color: blue;
+}
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+  background-color: rgb(78, 78, 90);
+  box-shadow: 5px 10px 5px rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.breedTitle {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.contenedorImagen {
+  width: 240px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.contenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.Sidebar {
+  float:left;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 2px 7px 2px 7px;
+  color: rgb(242, 242, 242);
+  background-color: white;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  text-align:left;
+  width: 280px;
+}
+
+.form {
+  background-color: white;
+  padding:40px;
+  border: 2px solid black;
+}
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.body {
+  margin: 0 auto;
+  text-align: left;
+  width: 960px;
+  background-color: teal;
+}
+
+label {
+  margin:15px;
+  clear:both;
+  display:block;
+  font-weight: bolder;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  border: solid 2px #262626;
+  margin-left: 1%;
+  margin-bottom: 0%;
+  align-items: center;
+}
+
+::placeholder, option value {
+  color: grey; 
+  font-weight:bold;
+  font-size: 18px;
+}
+
+textarea {
+  margin-left: 1%;
+  border: solid 2px #262626;
+  font-size:18px;
+}
+
+input {
+  padding: 10px 40px; 
+  text-transform: uppercase; 
+  cursor: pointer; 
+  background-color:white; 
+  border: solid 2px black; 
+}
+
+li, p{
+  font-size: 30px
+}
+nav .first{
+  font-weight: bold;    
+}
