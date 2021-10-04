@@ -1,0 +1,23 @@
+.card {
+    border: none;
+    border-radius: 8px;
+    
+}
+.Fondo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 168px;
+    max-width: 570px;
+}
+.Info {
+    padding-left: 0;
+    padding-right: 75px;
+}
+.Info h1{
+    font-size: 23px;
+    color: white;
+}
+.Info p{
+    font-size: 11px;
+    color: white;
+}
