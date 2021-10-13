@@ -1,0 +1,137 @@
+marquee{
+    background-color: black;
+    font-display: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+  }
+  
+  * {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: Helvetica, sans-serif;
+  }
+  
+  h1 {
+    color: rgba(255, 255, 255, 0);
+  }
+  
+  p {
+    color: black;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .header {
+    display: inline-block;
+    background-color: #F7A418;
+    text-align:right;
+    height: 80px;
+    width: 80px; 
+  }
+  
+  .body {
+    margin: 0 auto;
+    text-align: left;
+    width: 80px;
+  }
+  
+  
+  
+
+  
+  .formulario .contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    padding-bottom: 30px 0;
+    text-align: center;
+  }
+  
+
+  .formulario .contenedor .form .form-header .form-title span{
+    color:rgb(218, 149, 23)
+  }
+  
+
+  .formulario .contenedor .form{
+    background: rgba(0, 0, 0, 0.699);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius:3px;
+  }
+  
+
+  .formulario .contenedor .form .form-label {
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: sans-serif;
+    position: relative; 
+  }
+  
+  
+  .formulario .contenedor .form .form-input{
+    background:rgba(0, 0, 0, 0.705);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .formulario .contenedor .form .btn-submit {
+    width: 100%;
+    font-family: sans-serif;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border:none;
+    color: #fff;
+    padding: 15px 0; 
+    cursor: pointer;
+    transition:  all .5s ease;
+  }
+  
+  .contenedor .form .btn-submit:hover{
+    background:#000;
+  
+  }
+  
+   .title {
+    font-family: Arial, helvetica, sans-serif;
+    font-size:24px;
+    color: #020514;}
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li, p{
+    font-size: 30px
+  }
+  
+  
+ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+  
+  }
+  .navbar
+  {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    
+  }
